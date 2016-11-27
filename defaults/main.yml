@@ -1,0 +1,19 @@
+---
+define_new_user:
+  - name: ops
+    key:
+      - https://github.com/5003/dummy/raw/master/abcdefghijklmnopqrstuvwxwz.pub
+    groups:
+      - docker
+
+  - name: prov
+    key:
+      - https://github.com/5003/dummy/raw/master/abcdefghijklmnopqrstuvwxwz.pub
+    groups:
+      - docker
+
+  - name: ci
+    key:
+      - https://github.com/5003/dummy/raw/master/abcdefghijklmnopqrstuvwxwz.pub
+    groups:
+      - docker
